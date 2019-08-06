@@ -8,7 +8,7 @@
  - docker
  
 
-![form](screenshot.png)
+![form](php/public/img/screenshot.png)
 
 # Run (with docker)
 
@@ -36,6 +36,8 @@ Open `http://localhost:4000` in your browser
 # Run local 
 You need to look php/settings.json and create databases `entrance_form` and `entrance_form_test`
 
+    git clone https://github.com/shaggyrec/entrance-form.git
+    
     cd react
     
     npm run build:prod
