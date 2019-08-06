@@ -1,0 +1,25 @@
+<phpunit
+    bootstrap="./../../vendor/autoload.php"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    stopOnError="true"
+    stopOnFailure="true"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    beStrictAboutTestsThatDoNotTestAnything="false"
+>
+    <!--<listeners>-->
+        <!--<listener class="\Api\Test\Listener"/>-->
+    <!--</listeners>-->
+    <php>
+        <const name="INTEGRATION_TESTS_IN_PROGRESS" value=""/>
+    </php>
+
+    <testsuites>
+        <testsuite name="current-version">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

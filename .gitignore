@@ -1,0 +1,7 @@
+.idea
+php/vendor
+react/node_modules
+react/dist
+react/.cache
+php/public/index.j*
+php/public/index.cs*

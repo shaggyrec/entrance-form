@@ -1,0 +1,5 @@
+{
+    "db": "pdo-mysql://entrance_form_user:Sheidohngoa6ibae@mysql/entrance_form?charset=utf8",
+    "db-test": "pdo-mysql://entrance_form_user:Sheidohngoa6ibae@mysql/entrance_form_test?charset=utf8",
+    "jwt": "lnb87273nflmsdofj02"
+}
