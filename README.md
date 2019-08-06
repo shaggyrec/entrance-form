@@ -40,7 +40,7 @@ You need to look php/settings.json and create databases `entrance_form` and `ent
 
     git clone https://github.com/shaggyrec/entrance-form.git
     
-    cd react
+    cd entrance-form/react
     
     npm run build:prod
     
