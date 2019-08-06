@@ -1,5 +1,7 @@
 # Entrance Form
 
+[![Build Status](https://travis-ci.org/shaggyrec/entrance-form.svg?branch=master)](https://travis-ci.org/shaggyrec/entrance-form)
+
 ### Using 
  - php7
  - React/Redux/Sagas
