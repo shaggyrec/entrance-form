@@ -22,11 +22,11 @@ Open `http://localhost:4000` in your browser
 
 ## Run tests
 
-###PHP
+### PHP
     docker exec -it d32961a22996 /bin/bash
     
     ./tests/run.sh
-###JS
+### JS
     docker exec -it d32961a22996 /bin/bash
     
     cd ../react 
@@ -50,11 +50,11 @@ Open `http://localhost:8080` in your browser
 
 ## Run tests
 
-###PHP
+### PHP
     cd php
     
     ./tests/run.sh
-###JS
+### JS
     cd react
     
     npm t
