@@ -1,0 +1,19 @@
+matrix:
+  include:
+    - language: php
+      php:
+        - "7.2"
+      before_install:
+        - cd php
+      install:
+        - composer install --dev
+      script: ./tests/unit/run.sh
+    - language: node_js
+      node_js:
+        - "12"
+      before_install:
+        - cd react
+      install:
+        - npm i
+      script:
+        - npm t
