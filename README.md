@@ -48,7 +48,7 @@ You need to look php/settings.json and create databases `entrance_form` and `ent
     
     composer install
     
-    cd composer start
+    composer start
     
 Open `http://localhost:8080` in your browser
 
