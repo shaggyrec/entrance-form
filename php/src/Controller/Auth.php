@@ -80,7 +80,6 @@ class Auth
 
         $userData['password'] = password_hash($userData['password'], PASSWORD_DEFAULT);
         
-        /** @var UploadedFile|null $uploadedImage */
         if (isset($userData['image'])) {
             [$uploadPath, $fileName, $extension] = saveBase64AsImgFile($userData['image'], md5($userData['email']), $this->uploadPath);
             $userData['image'] = "$fileName.$extension";
